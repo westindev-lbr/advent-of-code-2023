@@ -7,3 +7,9 @@
 * [x] Day 1 - Trebuchet
 * [x] Day 2 - Cube conundrum
 * [ ] Day 3 - Gear Ratios
+
+## Utilisation
+
+```shell
+npx esrun <path/script.ts>
+```

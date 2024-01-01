@@ -1,8 +1,9 @@
 {
-    "name": "",
+    "name": "Aoc2023",
     "version": "1.0.0",
     "description": "",
     "main": "script.ts",
+    "type": "module",
     "scripts": {
         "start": "nodemon ./script.ts",
         "dev": "tsc && node ./build/script.js",
@@ -21,5 +22,8 @@
         "ts-jest": "^29.1.1",
         "ts-node": "^10.9.1",
         "typescript": "^5.3.2"
+    },
+    "dependencies": {
+        "@digitak/esrun": "^3.2.26"
     }
 }
