@@ -12,7 +12,7 @@ const bufferTest = await fs.readFile("./day3/input/input-example.txt");
 const contentTest = bufferTest.toString();
 const contentLines = contentTest.split("\n");
 const content2D = contentLines.map((e) => e.split(""));
-console.table(content2D);
+// console.table(content2D);
 
 describe("Gear Ratios 1", () => {
 	it("should return true when we find '.'", () => {
@@ -25,7 +25,6 @@ describe("Gear Ratios 1", () => {
 	});
 	it("should return [467, 35, 633, 617, 592, 755, 664, 598] valid numbers in test input", () => {
 		const arrayNumbers = extractNumberInString(contentLines);
-		console.log(arrayNumbers);
 		checkNumberValid(contentLines, arrayNumbers);
 		const result = arrayOfNumberValid(arrayNumbers);
 		expect(result).toStrictEqual([467, 35, 633, 617, 592, 755, 664, 598]);
