@@ -6,7 +6,8 @@
 
 * [x] Day 1 - Trebuchet
 * [x] Day 2 - Cube conundrum
-* [ ] Day 3 - Gear Ratios
+* [x] Day 3 - Gear Ratios
+* [ ] Day 4 - Scratchcards
 
 ## Utilisation
 
